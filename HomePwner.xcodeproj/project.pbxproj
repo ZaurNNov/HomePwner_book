@@ -31,7 +31,7 @@
 		520AA4D7187EF39F0048F174 /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 520AA4D6187EF39F0048F174 /* BNRItem.m */; };
 		52CEE9C6187EF73A0037259A /* BNRAssetTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CEE9C5187EF73A0037259A /* BNRAssetTypeViewController.m */; };
 		CEBABE0720AC7AD2009C09E7 /* BNRDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEBABE0920AC7AD2009C09E7 /* BNRDetailViewController.xib */; };
-		CEBABE1520AC83DA009C09E7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEBABE1420AC83DA009C09E7 /* Localizable.strings */; };
+		CEBABE1620AC844D009C09E7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEBABE1820AC844D009C09E7 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,7 +83,9 @@
 		52CEE9C5187EF73A0037259A /* BNRAssetTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRAssetTypeViewController.m; sourceTree = "<group>"; };
 		CEBABE0A20AC7ADF009C09E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/BNRDetailViewController.xib; sourceTree = "<group>"; };
 		CEBABE0B20AC7AFD009C09E7 /* es-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-BR"; path = "es-BR.lproj/BNRDetailViewController.strings"; sourceTree = "<group>"; };
-		CEBABE1420AC83DA009C09E7 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		CEBABE1720AC844D009C09E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CEBABE1920AC8450009C09E7 /* es-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-BR"; path = "es-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CEBABE1A20AC84AB009C09E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,7 +169,7 @@
 				52CEE9C4187EF73A0037259A /* BNRAssetTypeViewController.h */,
 				52CEE9C5187EF73A0037259A /* BNRAssetTypeViewController.m */,
 				520AA490187C4EC00048F174 /* Images.xcassets */,
-				CEBABE1420AC83DA009C09E7 /* Localizable.strings */,
+				CEBABE1820AC844D009C09E7 /* Localizable.strings */,
 				520AA485187C4EC00048F174 /* Supporting Files */,
 			);
 			path = HomePwner;
@@ -280,7 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEBABE1520AC83DA009C09E7 /* Localizable.strings in Resources */,
+				CEBABE1620AC844D009C09E7 /* Localizable.strings in Resources */,
 				CEBABE0720AC7AD2009C09E7 /* BNRDetailViewController.xib in Resources */,
 				520AA4CB187E42150048F174 /* BNRItemCell.xib in Resources */,
 				520AA489187C4EC00048F174 /* InfoPlist.strings in Resources */,
@@ -360,6 +362,16 @@
 				CEBABE0B20AC7AFD009C09E7 /* es-BR */,
 			);
 			name = BNRDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+		CEBABE1820AC844D009C09E7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBABE1720AC844D009C09E7 /* en */,
+				CEBABE1920AC8450009C09E7 /* es-BR */,
+				CEBABE1A20AC84AB009C09E7 /* Base */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -16,9 +16,9 @@
 {
     self = [super initWithStyle:UITableViewStylePlain];
     if (self) {
-        self.navigationItem.title = NSLocalizedString(@"Assert Type", @"BNRAssetTypeViewController title");
+        self.navigationItem.title =
+        NSLocalizedString(@"Asset Type", @"BNRAssetTypeViewController title");
     }
-    
     return self;
 }
 
