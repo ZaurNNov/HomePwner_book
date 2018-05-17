@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "DcM-Ta-Pno"; */
+"DcM-Ta-Pno.text" = "Название";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "HFl-jt-j04"; */
+"HFl-jt-j04.title" = "Пункт";
+
+/* Class = "UILabel"; text = "Serial"; ObjectID = "IyW-WC-s8a"; */
+"IyW-WC-s8a.text" = "Серия";
+
+/* Class = "UILabel"; text = "Value"; ObjectID = "JgR-jx-IXE"; */
+"JgR-jx-IXE.text" = "Значение";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Qyh-9V-hKs"; */
+"Qyh-9V-hKs.text" = "Лейбл";

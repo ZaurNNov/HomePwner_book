@@ -81,6 +81,10 @@
 		520AA4D6187EF39F0048F174 /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
 		52CEE9C4187EF73A0037259A /* BNRAssetTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRAssetTypeViewController.h; sourceTree = "<group>"; };
 		52CEE9C5187EF73A0037259A /* BNRAssetTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRAssetTypeViewController.m; sourceTree = "<group>"; };
+		CE8A69BA20AD7CEF0099E001 /* ru-RU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ru-RU"; path = "ru-RU.lproj/BNRDetailViewController.strings"; sourceTree = "<group>"; };
+		CE8A69BB20AD7CEF0099E001 /* ru-RU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ru-RU"; path = "ru-RU.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CE8A69BC20AD7CEF0099E001 /* ru-RU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ru-RU"; path = "ru-RU.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		CE8A69BD20AD7CEF0099E001 /* ru-RU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ru-RU"; path = "ru-RU.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		CEBABE0A20AC7ADF009C09E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/BNRDetailViewController.xib; sourceTree = "<group>"; };
 		CEBABE0B20AC7AFD009C09E7 /* es-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-BR"; path = "es-BR.lproj/BNRDetailViewController.strings"; sourceTree = "<group>"; };
 		CEBABE1720AC844D009C09E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -265,6 +269,7 @@
 				en,
 				Base,
 				"es-BR",
+				"ru-RU",
 			);
 			mainGroup = 520AA472187C4EC00048F174;
 			productRefGroup = 520AA47C187C4EC00048F174 /* Products */;
@@ -343,6 +348,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				520AA488187C4EC00048F174 /* en */,
+				CE8A69BC20AD7CEF0099E001 /* ru-RU */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -351,6 +357,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				520AA4A1187C4EC00048F174 /* en */,
+				CE8A69BD20AD7CEF0099E001 /* ru-RU */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -360,6 +367,7 @@
 			children = (
 				CEBABE0A20AC7ADF009C09E7 /* Base */,
 				CEBABE0B20AC7AFD009C09E7 /* es-BR */,
+				CE8A69BA20AD7CEF0099E001 /* ru-RU */,
 			);
 			name = BNRDetailViewController.xib;
 			sourceTree = "<group>";
@@ -370,6 +378,7 @@
 				CEBABE1720AC844D009C09E7 /* en */,
 				CEBABE1920AC8450009C09E7 /* es-BR */,
 				CEBABE1A20AC84AB009C09E7 /* Base */,
+				CE8A69BB20AD7CEF0099E001 /* ru-RU */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
